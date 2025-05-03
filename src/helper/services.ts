@@ -1,7 +1,7 @@
 type ServicesType = {
   name: string;
   description: string;
-  icon?: any;
+  icon: string;
 };
 
 import uiDesign from "../../public/assets/icons/pens.svg";
@@ -38,5 +38,6 @@ export const myServices: ServicesType[] = [
     name: "Site Insituicional",
     description:
       "Criamos sites institucionais que destacam sua marca e contam sua história de forma impactante e profissional.",
+    icon: uiDesign,
   },
 ];

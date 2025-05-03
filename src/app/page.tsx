@@ -1,10 +1,7 @@
-import { work_sans_normal } from "@/fonts";
 import About from "@/pages/about/About";
 import AcessProjetct from "@/pages/Acess/AcessProjetct";
 import CallToAction from "@/pages/callToAction/CallToAction";
 import ContactPage from "@/pages/ContactPage/ContactPage";
-import Footer from "@/pages/footer/Footer";
-import Header from "@/pages/header/header";
 import Initial from "@/pages/initial/initial";
 import Methodology from "@/pages/methodology/Methodology";
 import Services from "@/pages/services/Services";

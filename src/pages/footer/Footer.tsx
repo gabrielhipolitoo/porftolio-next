@@ -1,5 +1,4 @@
 import MyName from "@/components/myName/MyName";
-import { Composition } from "@/components/section";
 
 export default function Footer() {
   return (

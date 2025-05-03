@@ -1,5 +1,4 @@
 import ButtonCall from "@/components/button/Button";
-import { Composition } from "@/components/section";
 import React from "react";
 
 export default function CallToAction() {
