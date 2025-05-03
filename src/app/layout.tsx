@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { work_sans_normal } from "@/fonts";
+import { work_sans } from "@/fonts";
 import Header from "@/pages/header/header";
 import Footer from "@/pages/footer/Footer";
 
@@ -20,7 +20,7 @@ export default function RootLayout({
         <main
           className={
             `grid grid-col  gap-[200px] w-[90%] m-auto min-2xl:w-[80%]  ` +
-            work_sans_normal.className
+            work_sans.className
           }
         >
           <Header />

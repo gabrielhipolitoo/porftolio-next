@@ -1,7 +1,7 @@
 import { listContacts } from "@/helper/contacts";
 import { skills } from "@/helper/skills";
 import { Composition } from "@/components/section";
-import { work_sans_normal } from "@/fonts";
+import { work_sans } from "@/fonts";
 import Image from "next/image";
 import React from "react";
 
@@ -39,7 +39,7 @@ export default function About() {
 
       <Composition.section>
         <div className="max-lg:w-[90%] w-[550px] ">
-          <h2 className={"text-3xl text-white " + work_sans_normal.className}>
+          <h2 className={"text-3xl text-white " + work_sans.className}>
             Minhas Habilidades
           </h2>
           <div className="flex flex-wrap max-lg:w-[90%] gap-5 mt-5">
@@ -48,7 +48,7 @@ export default function About() {
                 key={item}
                 className={
                   " bg-white text-black box-border p-2 rounded-xl " +
-                  work_sans_normal.className
+                  work_sans.className
                 }
               >
                 {item}
@@ -57,7 +57,7 @@ export default function About() {
           </div>
         </div>
         <div className="mt-10  max-lg:w-[90%] ml-auto max-lg:mr-auto max-lg:ml-0">
-          <h2 className={"text-3xl text-white " + work_sans_normal.className}>
+          <h2 className={"text-3xl text-white " + work_sans.className}>
             Meus contatos{" "}
           </h2>
           <div className="flex flex-col  gap-5 mt-5">

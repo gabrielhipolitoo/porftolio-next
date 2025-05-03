@@ -1,10 +1,10 @@
-import { work_sans_bold } from "@/fonts";
+import { work_sans } from "@/fonts";
 import React from "react";
 
 export default function MyName() {
   return (
     <div>
-      <strong className={`text-white ${work_sans_bold.className}`}>
+      <strong className={`text-white ${work_sans.className}`}>
         GABRIEL HIPÓLITO
       </strong>
     </div>

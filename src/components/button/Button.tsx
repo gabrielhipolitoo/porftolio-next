@@ -1,4 +1,4 @@
-import { work_sans_normal } from "@/fonts";
+import { work_sans } from "@/fonts";
 import Image from "next/image";
 
 export default function ButtonCall({
@@ -11,7 +11,7 @@ export default function ButtonCall({
   return (
     <button
       className={
-        work_sans_normal.className +
+        work_sans.className +
         ` bg-white text-black  cursor-pointer rounded-3xl
         flex gap-2 w-[200px] text-center items-center justify-center
         max-lg:m-auto

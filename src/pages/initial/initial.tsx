@@ -1,6 +1,6 @@
 import ButtonCall from "@/components/button/Button";
 import { Composition } from "@/components/section";
-import { work_sans_normal } from "@/fonts";
+import { work_sans } from "@/fonts";
 import Image from "next/image";
 import React from "react";
 
@@ -11,7 +11,7 @@ export default function Initial() {
         <h1 className="text-6xl text-[#D8D8D8] font-bold">Desenvolvedor Frontend</h1>
         <p
           className={
-            work_sans_normal.className +
+            work_sans.className +
             " text-4xl   text-[#BEBEBE] max-lg:text-center max-lg:text-3xl"
           }
         >

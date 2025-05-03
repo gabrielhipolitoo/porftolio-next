@@ -1,4 +1,4 @@
-import { work_sans_bold } from "@/fonts";
+import { work_sans } from "@/fonts";
 
 type propsTitle = {
   title: string;
@@ -11,7 +11,7 @@ export default function Title({ title, position }: propsTitle) {
       className={
         `text-6xl h-auto    text-[#D8D8D8]  max-lg:text-4xl ${
           position ? " text-" + position + " " : " "
-        }` + work_sans_bold.className
+        }` + work_sans.className
       }
     >
       {title}
