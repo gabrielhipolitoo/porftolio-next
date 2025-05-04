@@ -3,13 +3,13 @@ import ButtonCall from "@/components/button/Button";
 import MyName from "@/components/myName/MyName";
 import MenuMobile from "@/modal/MenuMobile";
 import Image from "next/image";
-import React from "react";
+import { useState } from "react";
 
 export default function Header() {
-  const [stateMenu, setStateMenu] = React.useState(false);
+  const [stateMenu, setStateMenu] = useState(false);
   console.log(stateMenu);
 
-  function changeButton(): any {
+  function changeButton() {
     const closeMenu = (
       <Image
         src="/assets/icons/close.svg"

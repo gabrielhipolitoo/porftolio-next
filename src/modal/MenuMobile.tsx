@@ -9,7 +9,7 @@ export default function MenuMobile() {
       <div className="flex center m-auto  p-2 bg-[#0F0F11] w-full  h-[500px] rounded-md max-w-[90%] ml-auto">
         <div className=" flex flex-col h-full m-auto justify-around   items-center">
           {links.map(({ name, target }) => (
-            <a href={target} className="text-white transition">
+            <a key={target} href={target} className="text-white transition">
               {name}
             </a>
           ))}
