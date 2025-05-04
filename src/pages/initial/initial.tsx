@@ -7,8 +7,10 @@ import React from "react";
 export default function Initial() {
   return (
     <Composition.section>
-      <div className="grid flex-col gap-4 max-xl:items-center row-start-1 row-end-4">
-        <h1 className="text-6xl text-[#D8D8D8] font-bold">Desenvolvedor Frontend</h1>
+      <div className="grid flex-col gap-4 max-xl:items-center row-start-1 row-end-4 bg-amber-400">
+        <h1 className="text-6xl max-w-[90%] text-[#D8D8D8] bg-amber-100 font-bold max-lg:text-center max-md:text-4xl ">
+          Desenvolvedor Frontend
+        </h1>
         <p
           className={
             work_sans.className +
