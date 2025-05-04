@@ -19,7 +19,7 @@ export default function RootLayout({
       <body>
         <main
           className={
-            `grid grid-col  gap-[200px] w-[90%] m-auto min-2xl:w-[80%]  ` +
+            `grid grid-col relative  gap-[200px] w-[90%] m-auto min-2xl:w-[80%]  ` +
             work_sans.className
           }
         >

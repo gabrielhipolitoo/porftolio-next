@@ -7,7 +7,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <Composition.section direction="col">
+    <Composition.section id="ABOUT" direction="col">
       <Composition.section>
         <Image
           src="/assets/images/Eu2.png"

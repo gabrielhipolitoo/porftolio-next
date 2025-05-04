@@ -14,8 +14,8 @@ export default function ButtonCall({
         work_sans.className +
         ` bg-white text-black  cursor-pointer rounded-3xl
         flex gap-2 w-[200px] text-center items-center justify-center
-        max-lg:m-auto
-        ${position ? "m-" + position : ""}
+        
+        ${position ? "max-lg:m-" + position : ""}
         ${padding ? "p-" + padding : "p-2"}
 
         `

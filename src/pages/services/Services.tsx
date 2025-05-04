@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <Composition.section direction="col">
+    <Composition.section id="SERVICES" direction="col">
       <Composition.title title="Conheça os meus serviços" />
       <div className="grid grid-cols-3 gap-10 max-lg:grid-cols-1">
         {myServices.map(({ name, description, icon }) => (

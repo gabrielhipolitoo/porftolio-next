@@ -4,14 +4,24 @@ type propsSection = {
   children: ReactNode;
   direction?: string;
   color?: string;
+  margin?: string;
+  id?: string;
 };
 
-export default function Section({ children, direction, color }: propsSection) {
+export default function Section({
+  children,
+  direction,
+  color,
+  margin,
+  id,
+}: propsSection) {
   return (
     <section
-      className={` mb-1   0 h-full gap-5 grid  items-center w-full  
-        ${color ? `bg-[${color}]`: ""}
+      id={id}
+      className={` mb-1    h-full gap-5 grid  items-center w-full  
+        ${color ? `bg-[${color}]` : ""}
         ${direction === "col" ? "grid-cols-1 " : "grid-cols-2"}  
+        ${margin ? margin : ""}  
       m-auto
       max-lg:grid-cols-1
         `}

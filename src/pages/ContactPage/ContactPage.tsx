@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <Composition.section direction="col">
+    <Composition.section id="CONTACT" direction="col">
       <Composition.title
         title="Entre em contato comigo agora mesmo"
         position="center"
