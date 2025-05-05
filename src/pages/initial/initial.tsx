@@ -8,7 +8,7 @@ export default function Initial() {
   return (
     <Composition.section id="initial" margin="mt-32">
       <div className="grid  mt-28 gap-4  row-start-1 row-end-4 ">
-        <h1 className="text-6xl  bg-gray-900 text-[#D8D8D8] font-bold max-lg:text-center max-md:text-5xl max-sm:text-4xl  ">
+        <h1 className="text-6xl   text-[#D8D8D8] font-bold max-lg:text-center max-md:text-5xl max-sm:text-4xl  ">
           Desenvolvedor Frontend
         </h1>
         <p
