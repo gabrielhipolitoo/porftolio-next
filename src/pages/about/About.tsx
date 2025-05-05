@@ -10,7 +10,7 @@ export default function About() {
     <Composition.section id="ABOUT" direction="col">
       <Composition.section>
         <Image
-          src="/assets/images/Eu2.png"
+          src="/assets/images/eu2.png"
           width={400}
           height={350}
           className="max-lg:hidden"
