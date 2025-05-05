@@ -25,7 +25,7 @@ export default function Initial() {
           priority
           className="translate-[-20px]  max-lg:translate-[0] ml-auto max-lg:m-auto  "
           alt="Minha foto"
-          src={"/assets/Images/Eu.png"}
+          src={"/assets/Images/eu.png"}
           width={400}
           height={400}
         />
