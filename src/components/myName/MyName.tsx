@@ -1,14 +1,14 @@
-import { work_sans } from "@/fonts";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function MyName() {
   return (
     <div className="flex items-center gap-2">
-      <Image className="rounded-lg " alt="icone" src="/assets/images/Eu.png" width={40} height={40} />
-      <strong className={`text-white ${work_sans.className}`}>
+      <Image className="rounded-lg " alt="icone" src="/assets/images/eu.png" width={40} height={40} />
+      <Link href={"/"} className={`text-white font-bold`}>
         GABRIEL HIPÓLITO
-      </strong>
+      </Link>
     </div>
   );
 }

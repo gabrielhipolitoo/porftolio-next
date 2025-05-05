@@ -2,22 +2,21 @@ import { Composition } from "@/components/section";
 import { listProjects } from "@/helper/projects";
 import { Metadata } from "next";
 import Image from "next/image";
-
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Meus projetos",
-  description:
-    "Conheça os meus projetos realizados",
+  description: "Conheça os meus projetos realizados",
 };
-
 
 const Projects: React.FC = () => {
   return (
     <Composition.section direction="col" margin="mt-30">
+      <Link  href="/" className="bg-white text-black w-[100px] text-center p-2 rounded-md font-normal">Voltar</Link>
       <Composition.title font="bold" title="/Meus projetos" />
       <div className="grid grid-cols-2 w-full gap-10 justify-center  max-lg:grid-cols-1 max-md:justify-center">
         {listProjects.map(({ title, link, tag, image, description }) => (
-          <div 
+          <div
             key={title}
             className="flex flex-col gap-5 justify-between w-[520px]   bg-[#131316] rounded-md p-5 max-lg:w-[100%]"
           >

@@ -1,6 +1,5 @@
 import ButtonCall from "@/components/button/Button";
 import { Composition } from "@/components/section";
-import { work_sans } from "@/fonts";
 import Image from "next/image";
 import React from "react";
 
@@ -13,7 +12,6 @@ export default function Initial() {
         </h1>
         <p
           className={
-            work_sans.className +
             " text-4xl   text-[#BEBEBE] max-lg:text-center max-lg:text-3xl max-md:text-3xl max-sm:text-2xl  "
           }
         >
@@ -27,7 +25,7 @@ export default function Initial() {
           priority
           className="translate-[-20px]  max-lg:translate-[0] ml-auto max-lg:m-auto  "
           alt="Minha foto"
-          src={"/assets/Images/eu.png"}
+          src={"/assets/Images/Eu.png"}
           width={400}
           height={400}
         />
