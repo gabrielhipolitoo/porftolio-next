@@ -22,7 +22,6 @@ export default function Initial() {
       </div>
       <div className=" w-full  row-span-3  ">
         <Image
-          priority
           className="translate-[-20px]  max-lg:translate-[0] ml-auto max-lg:m-auto  "
           alt="Minha foto"
           src={"/assets/Images/eu.png"}
