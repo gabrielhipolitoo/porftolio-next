@@ -1,16 +1,25 @@
 import { Composition } from "@/components/section";
 import { listProjects } from "@/helper/projects";
+import { Metadata } from "next";
 import Image from "next/image";
+
+
+export const metadata: Metadata = {
+  title: "Meus projetos",
+  description:
+    "Conheça os meus projetos realizados",
+};
+
 
 const Projects: React.FC = () => {
   return (
     <Composition.section direction="col" margin="mt-30">
       <Composition.title font="bold" title="/Meus projetos" />
-      <div className="grid grid-cols-2 w-full gap-10  max-lg:grid-cols-1 max-md:justify-center">
+      <div className="grid grid-cols-2 w-full gap-10 justify-center  max-lg:grid-cols-1 max-md:justify-center">
         {listProjects.map(({ title, link, tag, image, description }) => (
           <div 
             key={title}
-            className="flex flex-col gap-5 justify-between w-[520px]   bg-[#131316] rounded-md p-5 max-md:w-[100%]"
+            className="flex flex-col gap-5 justify-between w-[520px]   bg-[#131316] rounded-md p-5 max-lg:w-[100%]"
           >
             <h2 className="font-medium text-4xl mb-[15px] text-white">
               {title}

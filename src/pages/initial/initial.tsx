@@ -7,7 +7,7 @@ import React from "react";
 export default function Initial() {
   return (
     <Composition.section id="initial" margin="mt-32">
-      <div className="grid  mt-28 gap-4  row-start-1 row-end-4 ">
+      <div className="grid  mt-28 gap-4 bg-bac row-start-1 row-end-4 ">
         <h1 className="text-6xl   text-[#D8D8D8] font-bold max-lg:text-center max-md:text-5xl max-sm:text-4xl  ">
           Desenvolvedor Frontend
         </h1>
@@ -17,8 +17,8 @@ export default function Initial() {
             " text-4xl   text-[#BEBEBE] max-lg:text-center max-lg:text-3xl max-md:text-3xl max-sm:text-2xl  "
           }
         >
-          Criando experiencias para o seu cliente e desenvolvendo soluções para
-          o seu negócio
+          Criando experiências para o seu cliente e desenvolvendo soluções para
+          o seu negócio.
         </p>
         <ButtonCall padding="4" position="auto" />
       </div>

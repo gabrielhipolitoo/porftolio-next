@@ -8,7 +8,7 @@ const config = {
   theme: {
     extend: {
       colors: {
-        ...tailwindColors,
+        background: "#ffff",
       },
     },
   },

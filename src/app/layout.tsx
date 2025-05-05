@@ -5,8 +5,9 @@ import Header from "@/pages/header/header";
 import Footer from "@/pages/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Portfólio Gabriel",
-  description: "Conheça meu site",
+  title: "Gabriel Hipólito",
+  description:
+    "Crio ideias de design personalizadas com base no seu negócio. Me chama e a gente conversa",
 };
 
 export default function RootLayout({
