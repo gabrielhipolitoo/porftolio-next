@@ -24,7 +24,7 @@ export default function Initial() {
         <Image
           className="translate-[-20px]  max-lg:translate-[0] ml-auto max-lg:m-auto  "
           alt="Minha foto"
-          src={"/assets/Images/eu.png"}
+          src={"/assets/images/eu.png"}
           width={400}
           height={400}
         />
