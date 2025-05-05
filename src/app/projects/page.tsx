@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
       <Composition.title font="bold" title="/Meus projetos" />
       <div className="grid grid-cols-2 w-full gap-10  max-lg:grid-cols-1 max-md:justify-center">
         {listProjects.map(({ title, link, tag, image, description }) => (
-          <div
+          <div 
             key={title}
             className="flex flex-col gap-5 justify-between w-[520px]   bg-[#131316] rounded-md p-5 max-md:w-[100%]"
           >
@@ -18,13 +18,22 @@ const Projects: React.FC = () => {
             <p className="text-[18px] font-medium mb-10 text-white">
               {description}
             </p>
-            <Image className="max-lg:w-[100%]" src={image} width={500} height={400} alt="Foto 1" />
+            <Image
+              className="max-lg:w-[100%]"
+              src={image}
+              width={500}
+              height={400}
+              alt="Foto 1"
+            />
             <div className="flex flex-col">
               <div className="flex gap-5">
                 {tag.map((item) => (
-                  <p className="mt-5 mb-5 p-1 text-sm  text-white rounded-md bg-[#6472CC]">
+                  <p
+                    key={item}
+                    className="mt-5 mb-5 p-1 text-sm  text-white rounded-md bg-[#6472CC]"
+                  >
                     {item}
-                  </p> 
+                  </p>
                 ))}
               </div>
               <span>
