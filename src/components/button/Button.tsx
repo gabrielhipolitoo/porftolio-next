@@ -13,7 +13,7 @@ export default function ButtonCall({
       className={
         work_sans.className +
         ` bg-white text-black  cursor-pointer rounded-3xl
-        flex gap-2 w-[200px] text-center items-center justify-center
+        flex gap-2 w-[200px] text-center items-center justify-center max-sm:hidden
         
         ${position ? "max-lg:m-" + position : ""}
         ${padding ? "p-" + padding : "p-2"}
