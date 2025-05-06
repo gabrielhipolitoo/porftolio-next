@@ -3,6 +3,7 @@ import "./globals.css";
 import { work_sans } from "@/fonts";
 import Header from "@/pages/header/header";
 import Footer from "@/pages/footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Gabriel Hipólito",
@@ -26,6 +27,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <SpeedInsights />
           <Footer />
         </main>
       </body>
