@@ -17,7 +17,7 @@ export default function ContactPage() {
         </span>{" "}
         Me chame no whatsap agora mesmo.
       </p>
-      <ButtonCall position={"auto"} />
+      <ButtonCall position={"m-auto"} />
     </Composition.section>
   );
 }

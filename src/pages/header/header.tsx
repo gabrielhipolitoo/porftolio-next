@@ -35,7 +35,7 @@ export default function Header() {
       <div className="relative w-[90%]  flex items-center justify-between">
         <MyName />
         <div className="flex items-center gap-4">
-          <ButtonCall />
+          <ButtonCall hidde="max-sm:hidden" />
           <button
             onClick={() => {
               setStateMenu(!stateMenu);

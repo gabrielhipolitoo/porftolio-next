@@ -18,7 +18,7 @@ export default function Initial() {
           Criando experiências para o seu cliente e desenvolvendo soluções para
           o seu negócio.
         </p>
-        <ButtonCall padding="4" position="auto" />
+        <ButtonCall padding="4" position="max-lg:m-auto" />
       </div>
       <div className=" w-full  row-span-3  ">
         <Image
