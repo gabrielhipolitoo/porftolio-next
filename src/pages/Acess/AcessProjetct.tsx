@@ -11,7 +11,7 @@ export default function AcessProjetct() {
           Conheça alguns dos meus projetos pessoais e profissionais
         </p>
         <Link
-          href={"/projects"}
+          href={"/meus-projetos"}
           className="p-5 mt-10 cursor-pointer bg-[#131316] text-center text-white rounded-md hover:bg-[#6472CC] transition"
         >
           Acessar Projetos
