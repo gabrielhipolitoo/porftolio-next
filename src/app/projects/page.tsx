@@ -14,16 +14,16 @@ const Projects: React.FC = () => {
     <Composition.section direction="col" margin="mt-30">
       <Link  href="/" className="bg-white text-black w-[100px] text-center p-2 rounded-md font-normal">Voltar</Link>
       <Composition.title font="bold" title="/Meus projetos" />
-      <div className="grid grid-cols-2 w-full gap-10 justify-center  max-lg:grid-cols-1 max-md:justify-center">
+      <div className="flex flex-wrap w-full gap-10 justify-between  max-lg:grid-cols-1 max-md:justify-center">
         {listProjects.map(({ title, link, tag, image, description }) => (
           <div
             key={title}
-            className="flex flex-col gap-5 justify-between w-[520px]   bg-[#131316] rounded-md p-5 max-lg:w-[100%]"
+            className="flex flex-col gap-5 justify-between w-[550px]   bg-[#131316] rounded-md p-5 max-lg:w-[100%]"
           >
             <h2 className="font-medium text-4xl mb-[15px] text-white">
               {title}
             </h2>
-            <p className="text-[18px] font-medium mb-10 text-white">
+            <p className="text-[20px] font-medium mb-10 text-white">
               {description}
             </p>
             <Image
@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
               alt="Foto 1"
             />
             <div className="flex flex-col">
-              <div className="flex gap-5">
+              <div className="flex gap-2 flex-wrap item">
                 {tag.map((item) => (
                   <p
                     key={item}

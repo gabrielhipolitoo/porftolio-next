@@ -10,17 +10,17 @@ export default function ButtonCall({
   hidde?: string;
 }) {
   return (
-    <button
-      className={
-        ` bg-white text-black  cursor-pointer rounded-3xl
+    <a
+      href="https://api.whatsapp.com/send?phone=71992292368"
+      target="_blank"
+      className={` bg-white text-black  cursor-pointer rounded-3xl
         flex gap-2 w-[200px] text-center items-center justify-center 
         
-        ${position ? position  : " "}
-        ${hidde ? hidde  : ""}
+        ${position ? position : " "}
+        ${hidde ? hidde : ""}
         ${padding ? "p-" + padding : "p-2 "}
 
-        `
-      }
+        `}
     >
       Me chame agora
       <Image
@@ -29,6 +29,6 @@ export default function ButtonCall({
         height={20}
         alt="MenuMobile"
       />
-    </button>
+    </a>
   );
 }

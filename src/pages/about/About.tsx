@@ -16,7 +16,7 @@ export default function About() {
           className="max-lg:hidden"
           alt="Minha foto 2"
         />
-        <div className="   flex flex-col bg-bac  max-lg:w-[90%] ">
+        <div className="   flex flex-col bg-bac  max-lg:w-[98%] ">
           <Composition.title title="Como eu começei" />
           <p className={"text-white font-light mt-6 text-[20px] "}>
             Desde os 12 anos, sempre fui apaixonado por tecnologia.
@@ -72,9 +72,9 @@ export default function About() {
               />{" "}
               dev.gabrielhipolito@gmail.com
             </span>
-            {listContacts.map(({ name, icon }) => (
+            {listContacts.map(({ name, icon, contact }) => (
               <a
-                href=""
+                href={contact}
                 className="text-[20px] flex gap-2 text-white p-1"
                 key={name}
               >
