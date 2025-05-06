@@ -12,13 +12,18 @@ export const metadata: Metadata = {
 const Projects: React.FC = () => {
   return (
     <Composition.section direction="col" margin="mt-30">
-      <Link  href="/" className="bg-white text-black w-[100px] text-center p-2 rounded-md font-normal">Voltar</Link>
+      <Link
+        href="/"
+        className="bg-white text-black w-[100px] text-center p-2 rounded-md font-normal"
+      >
+        Voltar
+      </Link>
       <Composition.title font="bold" title="/Meus projetos" />
       <div className="flex flex-wrap w-full gap-10 justify-between  max-lg:grid-cols-1 max-md:justify-center">
         {listProjects.map(({ title, link, tag, image, description }) => (
           <div
             key={title}
-            className="flex flex-col gap-5 justify-between w-[550px]   bg-[#131316] rounded-md p-5 max-lg:w-[100%]"
+            className="flex flex-col gap-5 justify-between w-[550px] min-2xl:w-[47%]   bg-[#131316] rounded-md p-5 max-lg:w-[100%]"
           >
             <h2 className="font-medium text-4xl mb-[15px] text-white">
               {title}
@@ -27,7 +32,7 @@ const Projects: React.FC = () => {
               {description}
             </p>
             <Image
-              className="max-lg:w-[100%]"
+              className="max-lg:w-[100%] min-2xl:w-[100%]"
               src={image}
               width={500}
               height={400}
@@ -45,10 +50,7 @@ const Projects: React.FC = () => {
                 ))}
               </div>
               <span>
-                <a
-                  className="text-white text-white hover:border-b-1"
-                  href={link}
-                >
+                <a className="text-white  hover:border-b-1" href={link}>
                   Visitar
                 </a>
                 <a className="ml-5 text-white hover:border-b-1" href="">
