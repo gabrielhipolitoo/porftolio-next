@@ -20,7 +20,7 @@ export const listProjects: Projects[] = [
     tag: ["Next.js", "Typescript"],
     image: portfolio,
     description:
-      "Criei esse site para facilitar a divulgação dos meus serviços e projetos",
+      "Criei esse site para facilitar a divulgação dos meus serviços e projetos, Ele foi criado utilizando Next.js,, typescript e tailwind",
     link: "https://gabrielhipolito.com.br",
   },
   {
@@ -28,7 +28,7 @@ export const listProjects: Projects[] = [
     tag: ["Wordpress", "Figma"],
     image: agilys,
     description:
-      "Criei esse site para facilitar a divulgação dos meus serviços e projetos",
+      "Página criada para apresentar os benefícios da plataforma Agilys System, voltada à gestão de qualidade e rastreabilidade no setor alimentício. Estruturada para conversão e clareza na comunicação.",
     link: "https://gabrielhipolito.com.br",
   },
   {
@@ -56,7 +56,7 @@ export const listProjects: Projects[] = [
   },
   {
     title: "Aceffong - blog",
-    tag: ["React.js","Strapi CMS","PostgreSQL"],
+    tag: ["React.js", "Strapi CMS", "PostgreSQL"],
     image: aceffong,
     description:
       "Blog para ONG desenvolvido com React, Strapi e PostgreSQL, com interface dinâmica, gestão de conteúdo flexível e deploy completo via Railway para escalabilidade e agilidade.",

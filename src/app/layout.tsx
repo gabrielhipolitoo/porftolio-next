@@ -4,7 +4,7 @@ import { work_sans } from "@/fonts";
 import Header from "@/pages/header/header";
 import Footer from "@/pages/footer/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 export const metadata: Metadata = {
   title: "Gabriel Hipólito",
   description:
@@ -29,8 +29,9 @@ export default function RootLayout({
           {children}
           <Footer />
         </main>
-          <SpeedInsights />
+        <SpeedInsights />
       </body>
+      <GoogleAnalytics gaId="G-0JH6DJG6NG" />
     </html>
   );
 }

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function AcessProjetct() {
   return (
-    <Composition.section>
+    <Composition.section >
       <div className="p-4 h-full flex flex-col justify-between ">
         <h2 className="text-6xl text-white">Conheça os meus projetos</h2>
         <p className="text-2xl mt-10 font-light text-white">

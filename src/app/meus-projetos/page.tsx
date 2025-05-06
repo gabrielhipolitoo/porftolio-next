@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: "Conheça os meus projetos realizados",
 };
 
+
+
 const Projects: React.FC = () => {
   return (
     <Composition.section direction="col" margin="mt-30">
@@ -28,7 +30,7 @@ const Projects: React.FC = () => {
             <h2 className="font-medium text-4xl mb-[15px] text-white">
               {title}
             </h2>
-            <p className="text-[20px] font-medium mb-10 text-white">
+            <p className="text-[20px] font-normal mb-10 text-white">
               {description}
             </p>
             <Image
