@@ -5,7 +5,6 @@ import ContactPage from "@/pages/ContactPage/ContactPage";
 import Initial from "@/pages/initial/initial";
 import Methodology from "@/pages/methodology/Methodology";
 import Services from "@/pages/services/Services";
-import { Analytics } from "@vercel/analytics/next";
 export default function Home() {
   return (
     <>
@@ -16,7 +15,6 @@ export default function Home() {
       <Services />
       <AcessProjetct />
       <ContactPage />
-      <Analytics/>
     </>
   );
 }
